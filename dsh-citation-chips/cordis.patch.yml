@@ -1,0 +1,7 @@
+# 把这个 bundle 插进 Harness 的插件图。
+# id 只是图上的节点名，name 必须与 package.json 的 name 一致。
+- insert:
+    - id: citation-chips
+      name: dsh-citation-chips
+      config:
+        maxSources: 9
